@@ -14,15 +14,12 @@ public class DaoDemo {
 //            System.out.println(person);
 //        }
         personList.removeFirst();
-        personList.add(new Person("Stefan", "Bantić", "3444", 34));
+//        personList.add(new Person("Stefan", "Bantić", "3444", 34));
 //        personDao.writeAll(personList);
-        personDao = new PersonJsonSimpleDao();
+        personDao = new PersonSqlDao();
         personDao.writeAll(personList);
-
-        personDao = new PersonJsonGsonDao();
-//        personDao.writeAll(personList);
-        for(Person person : personDao.readAll()){
-            System.out.println(person);
-        }
+//        for(Person person : personDao.readAll()){
+//            System.out.println(person);
+//        }
     }
 }

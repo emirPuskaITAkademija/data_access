@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="21.0.8" class="java.beans.XMLDecoder">
+    <object class="java.util.ArrayList">
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>22</int>
+                </void>
+                <void property="name">
+                    <string>Teja</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>814</string>
+                </void>
+                <void property="surname">
+                    <string>Zupančič</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>29</int>
+                </void>
+                <void property="name">
+                    <string>Alen</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>815</string>
+                </void>
+                <void property="surname">
+                    <string>Hadžić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>26</int>
+                </void>
+                <void property="name">
+                    <string>Amina</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>816</string>
+                </void>
+                <void property="surname">
+                    <string>Mehmedović</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>31</int>
+                </void>
+                <void property="name">
+                    <string>Stefan</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>817</string>
+                </void>
+                <void property="surname">
+                    <string>Petrović</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>28</int>
+                </void>
+                <void property="name">
+                    <string>Jelena</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>818</string>
+                </void>
+                <void property="surname">
+                    <string>Marković</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>35</int>
+                </void>
+                <void property="name">
+                    <string>Viktor</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>819</string>
+                </void>
+                <void property="surname">
+                    <string>Stanković</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>23</int>
+                </void>
+                <void property="name">
+                    <string>Milica</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>820</string>
+                </void>
+                <void property="surname">
+                    <string>Nikolić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>30</int>
+                </void>
+                <void property="name">
+                    <string>Kristijan</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>821</string>
+                </void>
+                <void property="surname">
+                    <string>Perić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>25</int>
+                </void>
+                <void property="name">
+                    <string>Ivana</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>822</string>
+                </void>
+                <void property="surname">
+                    <string>Kovač</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>34</int>
+                </void>
+                <void property="name">
+                    <string>Filip</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>823</string>
+                </void>
+                <void property="surname">
+                    <string>Božić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>27</int>
+                </void>
+                <void property="name">
+                    <string>Marija</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>824</string>
+                </void>
+                <void property="surname">
+                    <string>Radić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>32</int>
+                </void>
+                <void property="name">
+                    <string>Aleksandar</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>825</string>
+                </void>
+                <void property="surname">
+                    <string>Trajkovski</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>24</int>
+                </void>
+                <void property="name">
+                    <string>Elena</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>826</string>
+                </void>
+                <void property="surname">
+                    <string>Petrova</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>29</int>
+                </void>
+                <void property="name">
+                    <string>Bojan</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>827</string>
+                </void>
+                <void property="surname">
+                    <string>Stojanovski</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>26</int>
+                </void>
+                <void property="name">
+                    <string>Sara</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>828</string>
+                </void>
+                <void property="surname">
+                    <string>Ilievska</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>28</int>
+                </void>
+                <void property="name">
+                    <string>Denis</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>829</string>
+                </void>
+                <void property="surname">
+                    <string>Kadić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>31</int>
+                </void>
+                <void property="name">
+                    <string>Lejla</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>830</string>
+                </void>
+                <void property="surname">
+                    <string>Softić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>34</int>
+                </void>
+                <void property="name">
+                    <string>Stefan</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>3444</string>
+                </void>
+                <void property="surname">
+                    <string>Bantić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>34</int>
+                </void>
+                <void property="name">
+                    <string>Stefan</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>3444</string>
+                </void>
+                <void property="surname">
+                    <string>Bantić</string>
+                </void>
+            </object>
+        </void>
+        <void method="add">
+            <object class="com.academy.two.model.Person">
+                <void property="age">
+                    <int>34</int>
+                </void>
+                <void property="name">
+                    <string>Stefan</string>
+                </void>
+                <void property="nationalIdentificationNumber">
+                    <string>3444</string>
+                </void>
+                <void property="surname">
+                    <string>Bantić</string>
+                </void>
+            </object>
+        </void>
+    </object>
+</java>
