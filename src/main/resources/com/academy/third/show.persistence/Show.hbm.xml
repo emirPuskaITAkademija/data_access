@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.academy.third.show.persistence.Show" table="shows" catalog="person_db" optimistic-lock="version">
+        <id name="showId" type="java.lang.Integer">
+            <column name="show_id"/>
+            <generator class="identity"/>
+        </id>
+        <property name="showTitle" type="string">
+            <column name="show_title" length="120" not-null="true"/>
+        </property>
+        <property name="numSeasons" type="java.lang.Short">
+            <column name="num_seasons" not-null="true"/>
+        </property>
+        <property name="initialYear" type="java.sql.Date">
+            <column name="initial_year" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>
