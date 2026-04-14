@@ -11,6 +11,6 @@
         <property name="show_sql">true</property>
         <!--        <property name="hibernate.hbm2ddl.auto">none</property>-->
         <mapping resource="com/academy/third/country/persistence/Country.hbm.xml"/>
-<!--        <mapping resource="com/academy/third/show/persistence/Show.hbm.xml"/>-->
+        <mapping resource="com/academy/third/show/persistence/Show.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

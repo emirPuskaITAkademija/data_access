@@ -1,41 +1,46 @@
 package com.academy.third.show.persistence;
 
 import com.academy.third.Dao;
-import com.academy.third.HibernateUtil;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.query.Query;
 
 import java.util.List;
 
 public class ShowDao implements Dao<Show, Integer> {
     @Override
     public Show save(Show show) {
-        return null;
+        // 1. executeSessionAction prima interfejs SessionAction
+        // 2. mi kreiramo jednu implementaciju tog interfejsa SaveShowAction
+        SaveShowAction saveShowAction = new SaveShowAction(show);
+        Show savedShow = executeSessionAction(saveShowAction);
+        return savedShow;
     }
 
     @Override
     public List<Show> findAll() {
-        SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
-        Session session = sessionFactory.openSession();
-        //from shows => from Show
-        Query<Show> showQuery = session.createQuery("from Show", Show.class);
-        List<Show> showList = showQuery.getResultList();
-        return showList;
+        // 1. executeSessionAction prima interfejs SessionAction
+        // 2. mi kreiramo jednu implementaciju tog interfejsa FindAllShowsAction
+        FindAllShowsAction findAllShowsAction = new FindAllShowsAction();
+        List<Show> shows = executeSessionAction(findAllShowsAction);
+        return shows;
     }
 
     @Override
     public Show findById(Integer id) {
-        return null;
+        // 1. executeSessionAction prima interfejs SessionAction
+        // 2. mi kreiramo jednu implementaciju tog interfejsa FindShowByIdAction
+        FindShowByIdAction findShowByIdAction = new FindShowByIdAction(id);
+        Show show = executeSessionAction(findShowByIdAction);
+        return show;
     }
 
     @Override
-    public void update(Show entity) {
-
+    public void update(Show show) {
+        UpdateShowAction updateShowAction = new UpdateShowAction(show);
+        executeSessionAction(updateShowAction);
     }
 
     @Override
-    public void delete(Show entity) {
-
+    public void delete(Show show) {
+        DeleteShowAction deleteShowAction = new DeleteShowAction(show);
+        executeSessionAction(deleteShowAction);
     }
 }

@@ -1,9 +1,11 @@
 package com.academy.third.country.persistence;
 
+import com.academy.five.active_record.AbstractActiveRecord;
+
 import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class Country implements Serializable {
+public class Country extends AbstractActiveRecord<Country, Integer> implements Serializable {
     private Integer countryId;
     private String country;
     private Timestamp lastUpdate;

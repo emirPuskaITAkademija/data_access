@@ -1,16 +1,24 @@
 package com.academy.third.show.persistence;
 
+import com.academy.five.active_record.AbstractActiveRecord;
+
 import java.io.Serializable;
 import java.sql.Date;
+import java.time.Year;
 
 /**
  * Java Entity koji predstavlja strukturu shows tabele iz BAZE podataka.
+ *
+ * E -> Show
+ * PK -> Integer
  */
-public class Show implements Serializable {
+public class Show extends AbstractActiveRecord<Show, Integer> implements Serializable {
     private Integer showId;
     private String showTitle;
     private Short numSeasons;
-    private Date initialYear;
+    private Short initialYear;
+
+
 
     public Show() {
     }
@@ -39,11 +47,11 @@ public class Show implements Serializable {
         this.numSeasons = numSeasons;
     }
 
-    public Date getInitialYear() {
+    public Short getInitialYear() {
         return initialYear;
     }
 
-    public void setInitialYear(Date initialYear) {
+    public void setInitialYear(Short initialYear) {
         this.initialYear = initialYear;
     }
 

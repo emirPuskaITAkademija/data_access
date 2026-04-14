@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
-        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-mapping>
     <class name="com.academy.third.show.persistence.Show" table="shows" catalog="person_db" optimistic-lock="version">
         <id name="showId" type="java.lang.Integer">
@@ -13,7 +13,7 @@
         <property name="numSeasons" type="java.lang.Short">
             <column name="num_seasons" not-null="true"/>
         </property>
-        <property name="initialYear" type="java.sql.Date">
+        <property name="initialYear" type="java.lang.Short">
             <column name="initial_year" not-null="true"/>
         </property>
     </class>
