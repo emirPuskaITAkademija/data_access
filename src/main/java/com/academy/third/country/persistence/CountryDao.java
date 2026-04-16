@@ -32,9 +32,9 @@ public class CountryDao implements Dao<Country, Integer> {
     }
 
     @Override
-    public void update(Country entity) {
+    public void update(Country country) {
         execute(session -> {
-            session.merge(entity);
+            session.update(country);
             return null;
         });
     }

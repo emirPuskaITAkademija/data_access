@@ -52,4 +52,18 @@ public class Country extends AbstractActiveRecord<Country, Integer> implements S
                 lastUpdate != null ? lastUpdate.toInstant() : null
         );
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Country)) return false;
+        if (this == obj) return true;
+
+        Country country = (Country) obj;
+        return countryId != null && countryId.equals(country.countryId);
+    }
+
+    @Override
+    public int hashCode() {
+        return countryId != null ? countryId.hashCode() : 0;
+    }
 }

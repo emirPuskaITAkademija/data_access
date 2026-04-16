@@ -30,6 +30,10 @@ public abstract class AbstractActiveRecord<E, PK> {
         }
     }
 
+    // Show show = new Show();
+    // show -> Show, AbstractActiveRecord
+    // show.save();
+
     public E save() {
         SessionAction<E> saveAction = session -> {
             session.save(this);
